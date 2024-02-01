@@ -1,7 +1,6 @@
 
 class Key{
     private signature: number = Math.random()
-    constructor(){} 
     getSignature(): number{
         return this.signature
     }
